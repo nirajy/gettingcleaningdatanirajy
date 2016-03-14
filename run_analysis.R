@@ -62,7 +62,7 @@ run_analysis <- function() {
         names(tidy_data) <- c(filtered_feature_names,"Subject","Activity")
         
         #Step 12: Create List of Features
-        featuresVec <- as.data.frame(sapply(strsplit(filtered_feature_names, " "), function(elem) return(elem[2])))
+        featuresVec <- as.data.frame(filtered_feature_names)
         featuresVec <- cbind(1:nrow(featuresVec), featuresVec)
        
         # Save the data into the file
