@@ -1,20 +1,23 @@
+##Following are the steps of Data transformation applied on test and training data.
+## Details below contain Activities and feature detail of Output Tidy Data
 ## Steps of Data Transformation
+
 ## Step 1: Read and Label Data frames for training data
 ## Step 2: Read and label Data frames for test data
 ## Step 3: Merge datasets
 ## Step 4: Read Features from features.txt
-# Step 5: Extracts only the measurements which have mean or std 
-   ##Go through the features.txt, create a vector that contains mean and std
+## Step 5: Extracts only the measurements which have mean or std 
+##	Go through the features.txt, create a vector that contains mean and std
 ## Step 6: Apply this filter to the dataframe to extract only the features required based on mean or std
 ## Step 7:Combine\Merge X data(filtered for mean and Std features), SUbject and Y
 ## Step 8: Get data from activity_labels.txt
 ## Step 9: Merge Activity label with data so that it will replace labels with actual Activity details\string
 ## step 10 - Appropriately labels the data set with descriptive variable names.
-  ##replace short word\abbreviation with full word
+##	replace short word\abbreviation with full word
 ## Step 11: assign names to features
 ## Step 12:  Save the data into the file
-  ##Write List of Features for Tidy Data. This is for Codebook
-  #Write List of Activities for Tidy Data. This is for Codebook
+##	Write List of Features for Tidy Data. This is for Codebook
+##	Write List of Activities for Tidy Data. This is for Codebook
   
 ## Activities:
 "Label" "Activity Detail"
