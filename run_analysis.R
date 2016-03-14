@@ -44,7 +44,7 @@ run_analysis <- function() {
         colnames(activitiesVec) <- c("activitylabel", "activitydetail")
         
         #Step 9: Merge Activity label with data so that it will replace labels with actual Activity details\string
-        tidy_data <- merge(data, activitiesVec, by = "activitylabel")
+        tidy_data <- merge( tidy_data, activitiesVec, by = "activitylabel")
        
         
         # step 10 - Appropriately labels the data set with descriptive variable names.
